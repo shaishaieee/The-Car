@@ -1,0 +1,99 @@
+@use '../abstract' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+
+@font-face {
+    font-family: "UbuntuCondensed-Regular";
+    src: url('../../fonts/UbuntuCondensed-Regular.ttf');
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "UbuntuCondensed-Regular";
+    color: rgba($clr-dark,0.7);
+    background-color: $clr-light;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    background-color: $clr-gray;
+   
+}
+
+body.open {
+     overflow: hidden;
+     height: 100vh;
+}
+
+a {
+    font-family: "UbuntuCondensed-Regular";
+    text-decoration: none;
+    font-size: 19px;
+}
+
+ul {
+    font-family: "UbuntuCondensed-Regular";
+    list-style: none;
+    color: $clr-dark;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "UbuntuCondensed-Regular";
+    text-wrap: balance;
+    color: $clr-dark;
+}
+
+h1 {
+    font-size: clamp(4.5rem, 6vw , 5rem);
+    line-height: 7rem;
+    margin-bottom: 1rem;
+   
+}
+
+h2 {
+    font-size: clamp(39px, 6vw , 40px);
+    margin-bottom: 1rem;
+    
+}
+
+h3 {
+    font-size: clamp(21px, 6vw , 22px);
+    margin-bottom: 1rem;
+    
+}
+
+h4 {
+    font-size: clamp(1.7rem, 6vw , 2rem);
+    margin-bottom: 1rem;
+    
+}
+
+h5 {
+    font-size: clamp(1rem, 6vw , 2rem);
+    margin-bottom: 1rem;
+   
+}
+h6 {
+    font-size: clamp(0.5rem, 6vw , 1.5rem);
+    margin-bottom: 1rem;
+
+}
+
+p {
+    font-family: "UbuntuCondensed-Regular";
+    font-size: clamp(13px, 6vw , 14px);
+    margin-bottom: 1.3rem;
+}
+
+.container {
+    max-width: 130rem;
+    justify-content: center;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    
+}
+small{
+    font-family: "Montserrat-Bold";
+}
